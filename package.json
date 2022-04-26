@@ -1,0 +1,23 @@
+{
+  "name": "halo-theme-hangar-starter",
+  "version": "2022.0.0",
+  "description": "汉佳主题开发模板",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HangarCN/halo-theme-hangar-starter.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HangarCN/halo-theme-hangar-starter/issues"
+  },
+  "homepage": "https://github.com/HangarCN/halo-theme-hangar-starter#readme",
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.4.0",
+    "prettier": "^2.6.2"
+  }
+}
