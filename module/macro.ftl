@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="keywords" content="${meta_keywords!}"/>
     <meta name="description" content="${meta_description!}" />
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
 
     <#--
         公共 head 代码，详情请参考：https://docs.halo.run/zh/developer-guide/theme/public-template-tag
