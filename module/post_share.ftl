@@ -7,8 +7,6 @@
 <script>
     $(document).ready(function () {
         $('#weibo').click(function () {
-            // https://service.weibo.com/share/share.php?title=
-            // “=”后面输入想要分享的内容即可
             window.open('https://service.weibo.com/share/share.php?title=文章标题' + document.title + window.location.href)
         })
 
@@ -17,6 +15,7 @@
         })
 
         $('#wechat').click(function () {
+            $('#wechatQRCode').children().remove();
             new QRCode(document.getElementById("wechatQRCode"), window.location.href);
         })
     });
