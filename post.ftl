@@ -7,7 +7,7 @@
   </article>
   <#include "module/post_share.ftl">
   <#include "module/post_print.ftl">
-  <#include "module/post_fontSize.ftl">
+  <#include "module/post_font_size.ftl">
   <#include "module/comment.ftl">
   <@comment post=post type="post" />
 </@layout>

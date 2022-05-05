@@ -17,4 +17,5 @@
     <h1>分页</h1>
 
     <#include "module/pagination.ftl">
+    <#include "module/index_tabs.ftl">
 </@layout>
