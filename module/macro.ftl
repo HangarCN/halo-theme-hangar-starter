@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta name="keywords" content="${meta_keywords!}"/>
     <meta name="description" content="${meta_description!}" />
-    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
-
+    <link rel="stylesheet" href="${theme_base!}/source/css/bootstrap.min.css">
+    <link href="${theme_base!}/source/css/style.css" rel="stylesheet">
+    <script src="${theme_base!}/source/js/jquery-3.6.0.min.js"></script>
+    <script src="${theme_base!}/source/js/bootstrap.bundle.min.js"></script>
+    <script src="${theme_base!}/source/js/axios.min.js"></script>
     <#--
         公共 head 代码，详情请参考：https://docs.halo.run/zh/developer-guide/theme/public-template-tag
         包含：Favicon，自定义 head 等

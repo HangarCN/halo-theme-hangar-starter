@@ -3,7 +3,7 @@
 <button id="wechat">分享到微信</button>
 <div id="wechatQRCode"></div>
 
-<script type="text/javascript" src="//static.runoob.com/assets/qrcode/qrcode.min.js"></script>
+<script src="${theme_base!}/source/js/qrcode.min.js"></script>
 <script>
     $(document).ready(function () {
         $('#weibo').click(function () {
