@@ -3,10 +3,12 @@
 <button id="wechat">分享到微信</button>
 <div id="wechatQRCode"></div>
 
-<script src="${theme_base!}/source/js/qrcode.min.js"></script>
+<script type="text/javascript" src="//static.runoob.com/assets/qrcode/qrcode.min.js"></script>
 <script>
     $(document).ready(function () {
         $('#weibo').click(function () {
+            // https://service.weibo.com/share/share.php?title=
+            // “=”后面输入想要分享的内容即可
             window.open('https://service.weibo.com/share/share.php?title=文章标题' + document.title + window.location.href)
         })
 
@@ -15,7 +17,6 @@
         })
 
         $('#wechat').click(function () {
-            $('#wechatQRCode').children().remove();
             new QRCode(document.getElementById("wechatQRCode"), window.location.href);
         })
     });

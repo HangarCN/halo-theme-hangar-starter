@@ -1,0 +1,44 @@
+.articleContent {
+  border-radius: 5px;
+  padding: 40px;
+  background-size: 100% auto;
+  background: #ffffff url("../images/module/second_page_bg.png") no-repeat bottom center;
+  min-height: 600px;
+  margin-bottom: 100px;
+}
+
+.articleContent-head {
+
+}
+
+.articleContent-head-title {
+  display: block;
+  font-size: 24px;
+  color: #636363;
+  font-weight: 600;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.articleContent-head-subTitle {
+  margin: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+  font-size: 16px;
+  color: #636363;
+}
+
+.articleContent-head-subTitle > span {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.articleContent-body {
+  min-height: 305px;
+  color: #636363;
+  font-size: 18px;
+  line-height: 42px;
+  letter-spacing: 0;
+}

@@ -1,0 +1,87 @@
+.menu {
+  width: 100%;
+  height: 120px;
+  background: white;
+}
+
+.menu-box {
+  width: 1200px;
+  height: 120px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.menu-box > div {
+  height: 120px;
+}
+
+.menu-logo img {
+  margin-top: 30px;
+}
+
+.menu-navigation {
+  overflow: hidden;
+  flex: 1;
+}
+
+.menu-navigation ul {
+  list-style-type: none;
+  text-align: right;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.menu-navigation ul li {
+  margin-right: 36px;
+  font-size: 14px;
+  line-height: 120px;
+}
+
+.menu-navigation ul li a {
+  text-decoration: none;
+  color: #505050;
+}
+
+.menu-current {
+  color: #0646a5!important;
+  font-weight: 600;
+  border-bottom: 3px solid #0646a5;
+  padding-bottom: 10px;
+}
+
+.menu-login {
+  display: flex;
+  align-items: center;
+}
+
+.menu-login-button {
+  width: 95px;
+  height: 38px;
+  border: solid 1px #0646a5;
+  border-radius: 20px;
+  background: white;
+  color: #0646a5;
+  font-size: 18px;
+}
+
+.menu-login-user-icon {
+  width: 18px;
+  height: 20px;
+}
+
+.menu-login-user-icon:before {
+  float: left;
+  display: inline-block;
+  content: '';
+  background: url("../../images/menu/login_user_icon.png") no-repeat;
+  width: 18px;
+  height: 20px;
+  margin-top: 2px;
+  margin-left: 14px;
+}
