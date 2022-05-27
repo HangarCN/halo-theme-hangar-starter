@@ -7,3 +7,8 @@ genernal:
       label: 首页公告
       type: textarea
       default: '欢迎来到我的博客'
+    base_url:
+      name: api_url
+      label: 请求接口地址
+      type: url
+      default: 'http://127.0.0.1:5001'

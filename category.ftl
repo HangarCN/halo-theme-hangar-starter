@@ -37,8 +37,8 @@
     const url = decodeURI(window.location.href);
     const activeClassify = url.substring(url.lastIndexOf('/') + 1, url.length);
     axios({
-      methods: 'get',
-      url: 'http://127.0.0.1:5001/api/content/categories',
+      method: 'get',
+      url: '${settings.base_url!}/api/content/categories',
       params: {},
       headers: {
         'API-Authorization': 'hangar'

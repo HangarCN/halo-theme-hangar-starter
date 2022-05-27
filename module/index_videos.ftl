@@ -5,8 +5,8 @@
 
 <script>
   axios({
-    methods: 'get',
-    url: 'http://127.0.0.1:5001/api/content/posts',
+    method: 'get',
+    url: '${settings.base_url!}/api/content/posts',
     params: {
       size: 4,
       categoryId: '3',

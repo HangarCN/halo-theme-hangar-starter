@@ -34,7 +34,7 @@
   $(document).ready(function () {
     var url = location.href;
     var urlstatus = false;
-    $(".nav ul li a").each(function () {
+    $(".nav ul li a").each(function addMenuActiveClass () {
       if ((url + '/').indexOf($(this).attr('href')) > -1 && $(this).attr('href') != '/') {
         $(this).addClass('menu-current');
         urlstatus = true;

@@ -11,8 +11,8 @@
     $(${parentId}).eq(0).find('.module-news-nav').append(createNavBar(item));
     $(${parentId}).eq(0).find('.module-news-nav').children().eq(0).addClass('module-news-nav-item-active');
     axios({
-      methods: 'get',
-      url: 'http://127.0.0.1:5001/api/content/posts',
+      method: 'get',
+      url: '${settings.base_url!}/api/content/posts',
       params: {
         size: 6,
         categoryId: item.id,
@@ -55,7 +55,7 @@
     return $news;
   }
 
-  $(${parentId}).eq(0).find('.module-news-nav-item').click(function () {
+  $(${parentId}).eq(0).find('.module-news-nav-item').click(function changeNewsTab () {
     $(this).siblings().removeClass('module-news-nav-item-active');
     $(this).addClass('module-news-nav-item-active');
     const listId = $(this).attr('listId');
